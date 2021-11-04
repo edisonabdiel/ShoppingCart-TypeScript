@@ -8,13 +8,11 @@ import {
   LinearProgress,
   Grid,
   Typography,
-  Button,
   Badge,
 } from "@material-ui/core";
 import AddShoppingCartIcon from "@material-ui/icons/AddShoppingCart";
 
 import { Item } from "./Item/Item";
-import { isTemplateSpan } from "typescript";
 import Cart from "./Cart/Cart";
 
 export type CartItemType = {
